@@ -10,7 +10,8 @@ plugins:
 color_scheme: dark
 search_enabled: true
 
-logo: "{{ '/assets/images/logo.png' | relative_url }}"
+logo: "{{ '/assets/images/green_logo.png' | relative_url }}"
+logo_width: 200px;
 
 
 sass:
