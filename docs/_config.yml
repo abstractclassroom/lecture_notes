@@ -11,4 +11,7 @@ color_scheme: dark
 search_enabled: true
 
 logo: "{{ '/assets/images/logo.png' | relative_url }}"
-logo_width: 500px
+
+
+sass:
+  style: compressed
