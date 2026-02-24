@@ -1,19 +1,12 @@
 title: Abstract Classroom Notes
 description: Lecture notes, math and CS documentation.
-theme: just-the-docs
 
-# Your custom domain:
 url: "https://notes.abstractclassroom.com"
 
-# Enable built-in search
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
 search_enabled: true
-
-# Dark theme
 color_scheme: dark
-
-# Optional: show last edit info on pages (works when hosted on GitHub)
-last_edit_timestamp: true
-last_edit_time_format: "%b %e %Y at %I:%M %p"
-
-# Optional: pretty URLs
 permalink: pretty
