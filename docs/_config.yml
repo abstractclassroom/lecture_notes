@@ -1,5 +1,5 @@
 title: Abstract Classroom Notes
-description: Lecture notes for computer science and mathematics.
+description: Lecture notes, math and CS documentation
 
 url: "https://notes.abstractclassroom.com"
 
@@ -10,6 +10,8 @@ plugins:
 color_scheme: dark
 search_enabled: true
 
-logo: /assets/images/green_horizontal_logo.png
-logo_width: 300px
+# Logo (optional): place your image at docs/assets/images/green_logo.png
+logo: "/assets/images/green_horizontal_logo.png"
+logo_width: "220px"
 
+permalink: pretty
