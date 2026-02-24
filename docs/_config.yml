@@ -10,6 +10,6 @@ plugins:
 color_scheme: dark
 search_enabled: true
 
-logo: /assets/images/green_logo.png
+logo: /assets/images/green_horizontal_logo.png
 logo_width: 200px
 
