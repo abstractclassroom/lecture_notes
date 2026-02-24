@@ -1,5 +1,5 @@
 title: Abstract Classroom Notes
-description: Lecture notes, math and CS documentation.
+description: Lecture notes, math and CS documentation
 
 url: "https://notes.abstractclassroom.com"
 
@@ -7,6 +7,8 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
-search_enabled: true
 color_scheme: dark
-permalink: pretty
+search_enabled: true
+
+logo: "/assets/images/logo.png"
+logo_width: 150px
