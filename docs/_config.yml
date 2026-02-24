@@ -11,4 +11,4 @@ color_scheme: dark
 search_enabled: true
 
 logo: "{{ '/assets/images/logo.png' | relative_url }}"
-logo_width: 150px
+logo_width: 500px
