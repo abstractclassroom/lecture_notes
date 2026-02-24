@@ -28,9 +28,9 @@ A **list** is an ordered collection of objects that may contain duplicates. For 
 
 Sets are almost always defined using curly braces.  Lists are almost always defined using square brackets.  Tuples are similar to lists and are almost always defined using parenthesis.
 
-* Typical Formatting For Sets $$\{1,2,3\} = \{3,2,1\}$$
-* Typical Formatting For Lists: $$[1,2,3] \neq [1,3,2]$$
-* Typical Formatting For Tuples: $$(1,2,3) \neq (2,3,1)$$
+* Set Example :  $$\{1,2,3\} = \{3,2,1\}$$
+* List Example : $$[1,2,3] \neq [1,3,2]$$
+* Tuple Example : $$(1,2,3) \neq (2,3,1)$$
 
 ## Membership
 
