@@ -60,4 +60,4 @@ The green line represents the equation $x + y = 2$.
 
 The blue line represents the equation $3x - 2y = 5$.
 
-The intersection of the two lines is the unique solution to the SLE.  The coordinates of the intersection point are $\left(\frac{9}{5}, \frac{1}{5}\right)$, which is the solution to the SLE.  This means that when $x = \frac{9}{5}$ and $y = \frac{1}{5}$, both equations are satisfied simultaneously.
+The intersection of the two lines is the unique solution to the SLE.  The coordinates of the intersection point are $\left(\frac{9}{5}, \frac{1}{5}\right)$, which is the solution to the SLE.  This means that when $x = \frac{9}{5} = 1.8$ and $y = \frac{1}{5} = 0.2$, both equations are satisfied simultaneously.
