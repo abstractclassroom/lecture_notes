@@ -61,3 +61,44 @@ The green line represents the equation $x + y = 2$.
 The blue line represents the equation $3x - 2y = 5$.
 
 The intersection of the two lines is the unique solution to the SLE.  The coordinates of the intersection point are $\left(\frac{9}{5}, \frac{1}{5}\right)$, which is the solution to the SLE.  This means that when $x = \frac{9}{5} = 1.8$ and $y = \frac{1}{5} = 0.2$, both equations are satisfied simultaneously.
+
+### No Solution Example
+
+Now let's consider an example of an SLE that has no solution.  This means that there are no values for the variables that can satisfy all of the equations in the system simultaneously.
+
+Consider the following SLE:
+
+$$
+\begin{cases}
+x + y = 2 \\
+x + y = 3
+\end{cases}
+$$  
+
+The first equation indicates that the sum of $x$ and $y$ must equal 2.  The second equation indicates that the sum of $x$ and $y$ must equal 3.  Notice that these two equations are contradictory.  There are no values for $x$ and $y$ that can satisfy both equations at the same time.  Therefore, this SLE has no solution.
+
+The graph below provides a visual representation of the solution.  Each line represents one of the equations in the SLE.  Notice that the lines are parallel and do not intersect, which visually confirms that there is no solution to the SLE.
+
+<img src="/assets/images/mathematics/linear-algebra/sle/sle_no_solution_lines.png" alt="No Solution" style="max-width: 600px; width: 100%;">
+
+### Infinitely Many Solutions Example
+
+Finally, let's consider an example of an SLE that has infinitely many solutions.  This means that there are infinitely many values for the variables that can satisfy all of the equations in the system simultaneously.
+
+Consider the following SLE:
+
+$$
+\begin{cases}
+x + y = 2 \\
+2x + 2y = 4
+\end{cases}
+$$  
+
+The first equation indicates that the sum of $x$ and $y$ must equal 2.  The second equation is simply the first equation multiplied by 2.  This means that the second equation does not provide any new information beyond what is already provided by the first equation.  Therefore, there are infinitely many pairs of $(x,y)$ that satisfy both equations simultaneously.  For example, $(1,1)$, $(0,2)$, and $(-1,3)$ all satisfy both equations.
+
+The graph below provides a visual representation of the solution.  Notice it appears as though only one line is present.  This is because the two equations represent the same line.  Every point on the line satisfies both equations, which visually confirms that there are infinitely many solutions to the SLE.
+
+<img src="/assets/images/mathematics/linear-algebra/sle/sle_infinite_solutions_lines.png" alt="Infinite Solutions" style="max-width: 600px; width: 100%;">
+
+It is important to note that infinite solutions does not mean every possible value for $x$ and $y$ is a solution.  Only the values of $x$ and $y$ that lie on the line are solutions.  The system did constrain the solution set, but it did not constrain the solution set to a single point.  The solution set is an infinite set of points that lie on the line.
+
