@@ -2,58 +2,71 @@
 title: Cardinality
 layout: default
 parent: Set Theory
-nav_order: 5
+nav_order: 7
 ---
 
 # Cardinality
 
-## Finite cardinality
+The **cardinality** of a set is the number of elements in the set.  The cardinality of a set $A$ is denoted by $|A|$.
 
-If $A$ is finite, then $|A|$ is the number of elements in $A$.
+For example consider the set $A$ below.
 
-Example:
+$$A = \{1, 2, 3, 8, 7\}$$
 
-$$
-A = \{a,b,c\} \implies |A| = 3.
-$$
+We would denote the cardinality of $A$ as shown below because there are 5 elements in the set.
 
-## Infinite “cardinality” is different
+$$|A| = 5$$
 
-For infinite sets, you **cannot** measure size by counting to a last element.
-Instead, we compare sizes using **bijections**:
+---
 
-Two sets $A$ and $B$ have the same cardinality if there exists a bijection $f: A \to B$.
+## Cardinality of Infinite Sets
 
-We write:
+The cardinality of an infinite set is not a number.  In fact, we may say the cardinality of an infinite does not exist.  This is similar to a limit not converging to a number, but instead diverging to infinity.  However, we still utilize the cardinality notation for infinite sets.
 
-$$
-|A| = |B| \quad \text{(meaning: there is a bijection)}.
-$$
+Consider the set of natural numbers below.
 
-This is why many people informally say “$|A|$ doesn’t exist the usual way for infinite sets.”
-The modern definition *does* assign infinite cardinalities, but it is based on bijections.
+$$\mathbb{N} = \{1, 2, 3, 4, 5, \ldots\}$$
 
-## Comparing sizes
+The cardinality of the set of natural numbers is denoted as shown below.
 
-- $|A| \le |B|$ means there exists an injective function $A \to B$.
-- $|A| < |B|$ means $|A| \le |B|$ but $|A| \ne |B|$.
+$$|\mathbb{N}| = \infty$$
 
-## Standard infinite cardinalities
+It is important that $\infty$ is not a number.  You cannot perform arithmetic operations with $\infty$ as if it were a number.  You should not perform comparison operations with $\infty$ either.  However, there are some notational conventions that implement the concept of $\infty$ as a number.  Suppose we want to indicate that set $A$ is a finite set.  We can use the notation below to indicate that the cardinality exists and so the set is not infinite (finite set).
 
-- Countable infinity:
+$$|A| < \infty$$
 
-$$
-|\mathbb{N}| = \aleph_0
-$$
+Just to be clear, a similar notation is used to indicate that the cardinality of a set is infinite.
 
-- Continuum (size of the reals):
+$$|A| = \infty$$
 
-$$
-|\mathbb{R}| = \mathfrak{c}
-$$
+Sets may be complex to the point where it is not clear whether a set is finite or infinite.  In this case, we can use the notation below to indicate that the cardinality of the set is unknown.
 
-and Cantor showed:
+$$|A| <= \infty$$   
 
-$$
-\aleph_0 < \mathfrak{c}.
-$$
+Notice the above notation could mean finite or infinite.  Despite all the notational conventions that are implemented, there are a few that are not considered valid such as the one shown below. 
+
+$$|A| > \infty \;\;\; \text{ (not valid)}$$
+
+---
+
+## Cardinality of the Empty Set
+
+The cardinality of the empty set is zero because there are no elements in the empty set.  The notation below is used to indicate that the cardinality of the empty set is zero.
+
+$$|\emptyset| = 0$$
+
+Notice the following notation is true because the cardinality of a set containing only the empty set is one.
+
+$$|\{\emptyset\}| = 1$$
+
+---
+
+## Cardinality of Subsets
+
+There is a natural relationship between the cardinality of a set and the cardinality of its subsets.  The cardinality of a subset is always less than or equal to the cardinality of the original set. Notice the following is true.  Recall that a subset leaves open the possibility for equality between sets.  As such, the cardinalities of the two sets could be equal.  The arrow below simply means "implies". 
+
+$$A \subset B \implies |A| \leq |B|$$
+
+In the case where set equality is not allowed we can use the notation below.
+
+$$A \subsetneq B \implies |A| < |B|$$

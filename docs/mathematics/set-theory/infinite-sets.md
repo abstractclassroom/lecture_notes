@@ -2,7 +2,7 @@
 title: Infinite Sets
 layout: default
 parent: Set Theory
-nav_order: 4
+nav_order: 6
 ---
 
 # Infinite Sets
@@ -20,6 +20,8 @@ Infinite sets are categorized into two types:
 1. Countably infinite sets
 2. Uncountably infinite sets
 
+---
+
 ## Countably Infinite Sets
 
 Consider the set of natural numbers below.  
@@ -30,12 +32,16 @@ Obviously, that set is infinite.  However, notice that we can still list the ele
 
 The set of natural numbers is an example of a countably infinite set. In fact, it is the basis for determining whether a set is countably infinite.  A set is a countably infinite set if we can establish a one-to-one correspondence between the elements of the set and the natural numbers.  Restated, a countably infinite set means the elements can be enumerated in a sequence. 
 
+
+---
+
 ## Uncountably Infinite Sets
 
 There are sets that are so dense that we cannot list the elements of the set in a sequence.  The set of real numbers is an example of an uncountably infinite set.   Suppose we considered all non-negative real numbers.  Obviously we would start with the number zero, but how could we meaningfully determine the next value.  Any value we pick would have infinitely many values between it and the previous value. This description is overly simplistic to the point of being abusive.  
 
 Determining whether a set is countably infinite or uncountably infinite can be a very difficult task.
 
+---
 
 ## Example of Countably Infinite Set
 
@@ -52,6 +58,8 @@ Now image we labeled the elements of the set of integers using natural numbers a
 $$\mathbb{Z} = \{\underbrace{0}_{1}, \underbrace{1}_{2}, \underbrace{-1}_{3}, \underbrace{2}_{4}, \underbrace{-2}_{5}, \underbrace{3}_{6}, \underbrace{-3}_{7}, \ldots\}$$
 
 Now we see that we can establish a one-to-one correspondence between the elements of the set of integers and the natural numbers.  
+
+---
 
 ## Never Compare The Size of Infinite Sets
 
@@ -71,12 +79,28 @@ $$E = \{\underbrace{2}_{1}, \underbrace{4}_{2}, \underbrace{6}_{3}, \underbrace{
 
 Is it not the case that the set of even numbers are formed by multiplying the natural numbers by 2?
 
+---
+
 ## Countable vs Uncountable Infinite Sets
 
 As stated, we never compare the sizes of infinite sets.  However, there is an arguement to be made about the density of a set.  The set of real numbers is much more dense than the set of natural numbers.  The set of real numbers is uncountably infinite while the set of natural numbers is countably infinite.  This type of analysis is called measure theory and can be quite complex.   Measure theory is at the heart of probability theory. 
+
+---
 
 ## All Finite Sets Are Countable
 
 To be complete, it is worth noting that all finite sets are countable.  A finite set is a set that contains a finite number of elements.  Since there are only a finite number of elements in the set, we can easily establish a one-to-one correspondence between the elements of the set and the natural numbers. We simply do not need to use all the natural numbers to enumerate the elements of the finite set.
 
+---
+
+## Subsets and Countability
+
+Below are a collection of true statements related to subsets and countability.
+
+* If $A$ is a subset of $B$ and $B$ is a countably infinite set, then $A$ is either finite or countably infinite.
+* If $A$ is a subset of $B$ and $B$ is an uncountably infinite set, then $A$ is either finite, countably infinite, or uncountably infinite.
+* If $A$ is a subset of $B$ and $A$ is an uncountably infinite set, then $B$ must be an uncountably infinite set.
+* If $A$ is a subset of $B$ and $A$ is a countably infinite set, then $B$ must be either a countably infinite set or an uncountably infinite set.
+* If $A$ is a subset of $B$ and $B$ is a finite set, then $A$ must be a finite set.
+* All finite sets are countable, but not all countable sets are finite.
 

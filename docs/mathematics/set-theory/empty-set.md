@@ -12,13 +12,19 @@ $$\emptyset \;\;\; \text{or} \;\;\; \{\}$$
 
 The first notation is more modern and is more commonly used.  Before typesetting software, the second notation was more common. This is why older textbooks may use the second notation to denote the empty set. 
 
+---
+
 ## Sets Are Containers
 
 It is important to realize that a set is a container that can hold elements.  The empty set is a container that holds no elements.  It is incorrect to refer to the empty set as "nothing" or "null".  The empty set is a container that holds no elements, but it is still a container.  The empty set is still a set, even though it contains no elements.  It is like having an empty box.  The box exists, but it contains nothing.  The box is still a box, even though it is empty.  The empty set is still a set, even though it is empty.
 
+---
+
 ## Uniqueness of the Empty Set
 
 Mathematicians often refer to the empty set as "the empty set".  When two sets contain the same elements, we say that the two sets are equal.  Since the empty set contains no elements, there can only be one empty set.  Every empty set is effectively equivalent to all other empty sets. 
+
+---
 
 ## Empty Set as a Subset
 
@@ -37,6 +43,8 @@ Let's assume to the contrary that the statement above is false.  If the statemen
 Notice the following must also be true
 
 $$\emptyset \subset \emptyset$$
+
+---
 
 ## Empty Set as an Element
 

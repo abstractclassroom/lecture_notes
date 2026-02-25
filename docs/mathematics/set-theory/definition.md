@@ -9,6 +9,8 @@ nav_order: 1
 
 A **set** is a collection of *distinct* objects called **elements**.
 
+---
+
 ## Properties Of Sets
 
 All mathematical sets have the following properties:
@@ -22,6 +24,8 @@ The notion of distinct is an important concept in mathematics.  If an object is 
 
 In general, sets do not contain order and they do not contain duplicates.  Adding an element to a set that already contains that element does not change the set.  Mathematically, `idempotent` actions (or operations) are operations that are inert if applied more than once.  Once an element has been added to a set, adding it again does not change the set and so the operation of adding an element to a set is idempotent. 
 
+---
+
 ### Sets vs. Lists
 
 A **list** is an ordered collection of objects that may contain duplicates. For example, the list $$[1,2,2,3]$$ is not the same as the list shown below $$[3,2,1]$$ because the order of elements matters in a list.  In contrast, the set $$\{1,2,2,3\}$$ is the same as the set $$\{3,2,1\}$$ because the order of elements does not matter in a set and duplicates are not allowed (ignored).  
@@ -31,6 +35,8 @@ Sets are almost always defined using curly braces.  Lists are almost always defi
 * Set Example :  $$\{1,2,3\} = \{3,2,1\}$$
 * List Example : $$[1,2,3] \neq [1,3,2]$$
 * Tuple Example : $$(1,2,3) \neq (2,3,1)$$
+
+---
 
 ## Membership
 
@@ -45,6 +51,8 @@ $$\notin$$ is used to denote non-membership.  If $A$ is a set and $x$ is an obje
 Example:
 
 Let $$A = \{2,4,6\}$$. Then $$4 \in A$$ but $$5 \notin A$$.
+
+---
 
 ## Equality of sets
 

@@ -15,6 +15,8 @@ There are three common ways to represent sets.
 
 Some of these are more concise than others and may require more mathematical maturity.  We will cover the basics for all three.
 
+---
+
 ## Sentence form
 
 This is the most straightforward way to describve a set.  A mathematician may verbally say something like "The set of numbers 1 through 10".  This seems very straightforward.  However, sentence form tends to be less precise.  When precision is implemented in sentence form, it can be very verbose. Consider the example of "The set of numbers 1 through 10".  Most of the time, people understand what is meant, but in mathematics, we want to be precise.  Consider the following statements:
@@ -25,6 +27,8 @@ This is the most straightforward way to describve a set.  A mathematician may ve
 As you can see, precision can be implemented in sentence form, but it can be very wordy.  When  mathematician is speaking to an audience well-familiar with the topic, then sentence form is utilized with the understanding that the audience will fill in the gaps.  However, this is very clumsy. 
 
 Sentence form is often the form to be avoided when precision is necessary.
+
+---
 
 ## Roster Form
 
@@ -57,6 +61,8 @@ When do we use roster form?
 
 * When the set is small and listing the elements is not cumbersome.
 * When the set is large (or infinite) but a clear pattern can be established.
+
+---
 
 
 ## Set-Builder Notation

@@ -19,6 +19,8 @@ The subset notation somewhat follows the convention of the less than or greater 
 
 Even though the expressions are equivalent, the subset notation is more commonly used than the superset notation.
 
+---
+
 ## Subset vs. Proper Subset
 
 Suppose we consider the statement below are realize it is a true statement.
@@ -35,6 +37,8 @@ However, there are times when  we want to indicate that $A$ is a subset of $B$ b
 
 $$A \subsetneq B$$
 
+---
+
 
 ## Equality of Sets
 
@@ -47,6 +51,8 @@ $$B \subset A$$
 When two sets are equal, we can use the notation below to indicate that $A$ and $B$ are equal sets.
 $$A = B$$
 
+---
+
 ## Subset Example
 
 Suppose we have the following sets.
@@ -58,6 +64,8 @@ $$A \subset B$$
 
 However, notice that $B$ is not a subset of $A$ because there is an element of $B$ that is not an element of $A$.
 $$B \not \subset A$$
+
+---
 
 ## Equality of Sets Example
 
@@ -74,6 +82,8 @@ $$B \subset A$$
 Since $A$ is a subset of $B$ and $B$ is a subset of $A$, we can conclude that $A$ and $B$ are equal sets.
 $$A = B$$
 
+---
+
 ## Notation Caveat
 
 Consider the following sets.
@@ -86,7 +96,9 @@ $$A \in B$$
 
 The notation above indicates that $A$ is an element of $B$.  However, $A$ is not an element of $B$.  The elements of $B$ are the numbers 1, 2, 3, and 4.  The set $A$ is not an element of $B$.  The set $A$ is a subset of $B$, but it is not an element of $B$.  The notation below is appropriate to indicate that $A$ is a subset of $B$.
 
-### Sets In Sets
+---
+
+### Sets as Elements In Other Sets
 
 Suppose we have the following sets.
 $$A = \{1, 2, 3\}$$
@@ -101,10 +113,10 @@ $$B \not \subset A$$
 $$1 \in A$$
 
 **The following statements are not valid and represent a misuse of notation.**
-$$A \in B \;\;\;\;\text{wrong notation}$$
-$$B \in A \;\;\;\;\text{wrong notation}$$
-$$A \subset C \;\;\;\;\text{wrong notation}$$
-$$1 \in C \;\;\;\;\text{wrong notation}$$
+$$A \in B \;\;\;\;\text{(invalid notation)}$$
+$$B \in A \;\;\;\;\text{(invalid notation)}$$
+$$A \subset C \;\;\;\;\text{(invalid notation)}$$
+$$1 \in C \;\;\;\;\text{(invalid notation)}$$
 
 
 
