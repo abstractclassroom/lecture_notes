@@ -45,10 +45,13 @@ $$A \subsetneq B$$
 There are times when we want to prove that two sets are in fact equivalent. Determining whether two large sets filled with complex objects can be very difficult.  A mathematician may try to establish that $A$ and $B$ are equal by showing that $A$ is a subset of $B$ and that $B$ is a subset of $A$.  If both statements are true, then we can conclude that $A$ and $B$ are equal sets.  The notation below is used to indicate that $A$ and $B$ are equal sets.
 
 If the two statements below are true, then we can conclude that $A$ and $B$ are equal sets.
+
 $$A \subset B$$
+
 $$B \subset A$$ 
 
 When two sets are equal, we can use the notation below to indicate that $A$ and $B$ are equal sets.
+
 $$A = B$$
 
 ---
@@ -56,13 +59,17 @@ $$A = B$$
 ## Subset Example
 
 Suppose we have the following sets.
+
 $$A = \{1, 2, 3\}$$
+
 $$B = \{1, 2, 3, 4\}$$
 
 Since every element of $A$ is also an element of $B$, we can conclude that $A$ is a subset of $B$.
+
 $$A \subset B$$
 
 However, notice that $B$ is not a subset of $A$ because there is an element of $B$ that is not an element of $A$.
+
 $$B \not \subset A$$
 
 ---
@@ -70,16 +77,21 @@ $$B \not \subset A$$
 ## Equality of Sets Example
 
 Suppose we have the following sets.
+
 $$A = \{1, 2, 3\}$$
+
 $$B = \{3, 2, 1\}$$
 
 Since every element of $A$ is also an element of $B$, we can conclude that $A$ is a subset of $B$.
+
 $$A \subset B$$
 
 Since every element of $B$ is also an element of $A$, we can conclude that $B$ is a subset of $A$.
+
 $$B \subset A$$
 
 Since $A$ is a subset of $B$ and $B$ is a subset of $A$, we can conclude that $A$ and $B$ are equal sets.
+
 $$A = B$$
 
 ---
@@ -87,7 +99,9 @@ $$A = B$$
 ## Notation Caveat
 
 Consider the following sets.
+
 $$A = \{1, 2, 3\}$$
+
 $$B = \{1, 2, 3, 4\}$$
 
 It is not appropriate to use the notation below.
@@ -101,21 +115,33 @@ The notation above indicates that $A$ is an element of $B$.  However, $A$ is not
 ### Sets as Elements In Other Sets
 
 Suppose we have the following sets.
+
 $$A = \{1, 2, 3\}$$
+
 $$B = \{1, 2, 3, 4\}$$
+
 $$C = \{A, B\}$$
 
 The following statements are valid statements and true.
+
 $$A \in C$$
+
 $$B \in C$$
+
 $$A \subset B$$
+
 $$B \not \subset A$$
+
 $$1 \in A$$
 
 **The following statements are not valid and represent a misuse of notation.**
+
 $$A \in B \;\;\;\;\text{(invalid notation)}$$
+
 $$B \in A \;\;\;\;\text{(invalid notation)}$$
+
 $$A \subset C \;\;\;\;\text{(invalid notation)}$$
+
 $$1 \in C \;\;\;\;\text{(invalid notation)}$$
 
 

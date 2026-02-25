@@ -8,6 +8,7 @@ nav_order: 4
 # The Empty Set
 
 The **empty set** is the set that contains no elements. The empty set can be denoted using one of the following notations.
+
 $$\emptyset \;\;\; \text{or} \;\;\; \{\}$$
 
 The first notation is more modern and is more commonly used.  Before typesetting software, the second notation was more common. This is why older textbooks may use the second notation to denote the empty set. 

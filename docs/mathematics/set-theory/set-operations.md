@@ -68,12 +68,14 @@ A \cap B = \{3\}
 ### Difference Example
 
 Consider the two sets $A$ and $B$ below.
+
 $$
 \begin{align*}
 A & = \{1, 2, 3\} \\
 B & = \{3, 4, 5\}
 \end{align*}
 The difference of $A$ and $B$ is the set of all elements that are in $A$ but not in $B$.  The difference of $A$ and $B$ is denoted by $A \setminus B$.  The difference of $A$ and $B$ is shown below.
+
 $$
 A \setminus B = \{1, 2\}
 $$
@@ -84,6 +86,7 @@ $$
 ### Symmetric Difference Example
 
 Consider the two sets $A$ and $B$ below.
+
 $$
 \begin{align*}
 A & = \{1, 2, 3\} \\
@@ -128,6 +131,7 @@ P_2 & = \{3, 4\} \\
 P_3 & = \{5, 6\} \\
 P & = \{P_1, P_2, P_3\} \;\;\; P \text{ is a partition of } A
 \end{align*}
+$$
 
 Notice that the partitions are subsets.  All pairwise intersections of the subsets are empty.  The union of the subsets is the original set $A$.
 
