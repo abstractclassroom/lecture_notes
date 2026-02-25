@@ -1,0 +1,44 @@
+---
+title: Systems of Linear Equations
+layout: default
+parent: Mathematics
+nav_order: 1
+has_children: true
+---
+
+# Systems of Linear Equations
+
+Systems of linear equations (SLE) are a collection of one or more linear equations involving the same set of variables.  The goal is to find values (solutions) for the variables so that the values satisfy all of the equations in the system.  SLEs are fundamental in linear algebra and have applications in various fields such as physics, engineering, computer science, and economics.
+
+## Equations Tell Pieces of a Story
+
+Each equation in an SLE provides a piece of information about the variables.  It effectively offers an incomplete vantage point on the solution.  When we have multiple equations that are part of the SLE, we can combine the information from all of the equations to get a more complete picture of the solution. The more equations we have, the more information we have about the solution.  
+
+The scenario is very much like a detective trying to solve a mystery. Each equation provides a clue.  Individually, no single equation may be sufficient to solve the mystery (solution), but taken together, the equations provide enough information to solve the mystery.  Restarted, each equation provides some vantage point about the solution.
+
+## Types of Solutions
+
+SLEs fall into one of three categories.  Every SLE will fit into exactly one of these categories:
+
+1. **No solution**: The equations are inconsistent and cannot be satisfied simultaneously.  This is like a detective having contradictory clues that cannot all be true at the same time.
+2. **Exactly one solution**: The equations are consistent.  Each equation provides a unique vantage point and together they provide the entire picture. A solution not only exists, but the solution is the only feasible solution.  This is like a detective having consistent clues that point to a single suspect, allowing them to solve the mystery conclusively.
+3. **Infinitely many solutions**: The equations are consistent. However, the equations do not provide enough information to determine a unique solution.  Solutions can be ruled out, but are will be infinitely many solutions that satisfy the equations.  This is like a detective having consistent clues that point to a group of suspects, but not enough information to single out one suspect as the culprit.
+
+To be clear, the above are the only possible outcomes.   It is not possible for an SLE to have exactly two solutions, or exactly three solutions, etc.  The solution set of an SLE is either empty (no solution), a single point (exactly one solution), or an infinite set (infinitely many solutions).
+
+# Example
+
+Consider the following SLE:
+
+$$
+\begin{cases}
+x + y = 2 \\
+3x - 2y = 5
+\end{cases}
+$$
+
+The first equation indicates that the sum of $x$ and $y$ must equal 2. Notice there are infinitely many pairs of $(x,y)$ that satisfy this equation.  For example, $(1,1)$, $(0,2)$, and $(-1,3)$ all satisfy the first equation.
+
+The second equation indicates that three times $x$ minus two times $y$ must equal 5.  Notice there are infinitely many pairs of $(x,y)$ that satisfy this equation as well.  For example $(1, -1)$ and $(3, 2)$ both satisfy the second equation.
+
+However, when we consider that both equations must be satisfied simultaneously, by the same values of $x$ and $y$, we can find a unique solution.  The solution is $(x,y) = (1,1)$.  This is the only pair of values for $x$ and $y$ that satisfies both equations simultaneously.  Therefore, this SLE has exactly one solution.
