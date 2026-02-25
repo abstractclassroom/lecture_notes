@@ -52,9 +52,9 @@ However, when we consider that both equations must be satisfied simultaneously, 
 
 $$(x,y) = \left(\frac{9}{5}, \frac{1}{5}\right)$$
 
-Notice the graph below demonstrates the solution.
+Notice the graph below provides a visual representation of the solution.  Each line represents one of the equations in the SLE.  The point where the two lines intersect is the unique solution to the SLE.
 
-![Unique Solution](/assets/images/mathematics/linear-algebra/sle/sle_intersection_lines.png)
+<img src="/assets/images/mathematics/linear-algebra/sle/sle_intersection_lines.png" alt="Unique Solution" style="max-width: 600px; width: 100%;">
 
 The green line represents the equation $x + y = 2$.
 
