@@ -12,7 +12,7 @@ There are many operations that can be performed on sets.  Below are some of the 
 * **Union**: The union of two sets $A$ and $B$ is the set of all elements that are in $A$ or in $B$.  The union of $A$ and $B$ is denoted by $A \cup B$.
 * **Intersection**: The intersection of two sets $A$ and $B$ is the set of all elements that are in both $A$ and $B$.  The intersection of $A$ and $B$ is denoted by $A \cap B$.
 * **Difference**: The difference of two sets $A$ and $B$ is the set of all elements that are in $A$ but not in $B$.  The difference of $A$ and $B$ is denoted by $A \setminus B$.
-* **Symmetric Difference**: The symmetric difference of two sets $A$ and $B$ is the set of all elements that are in $A$ or in $B$ but not in both.  The symmetric difference of $A$ and $B$ is denoted by $A \triangle B$.
+* **Symmetric Difference**: The symmetric difference of two sets $A$ and $B$ is the set of all elements that are in $A$ or in $B$ but not in both.  The symmetric difference of $A$ and $B$ is denoted by $$A \triangle B$$.
 ---
 
 ## Set Builder Notation
