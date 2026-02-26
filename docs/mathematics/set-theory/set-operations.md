@@ -33,6 +33,7 @@ $$
 ### Union Example 
 
 Consider the two sets $A$ and $B$ below.
+
 $$
 \begin{align*}
 A & = \{1, 2, 3\} \\
@@ -41,6 +42,7 @@ B & = \{3, 4, 5\}
 $$
 
 The union of $A$ and $B$ is the set of all elements that are in $A$ or in $B$.  The union of $A$ and $B$ is denoted by $A \cup B$.  Remember, order does not matter and sets do not contain duplicates.  As a result, the union of $A$ and $B$ is shown below.
+
 $$
 A \cup B = \{1, 2, 3, 4,5\}
 $$
@@ -51,6 +53,7 @@ $$
 ### Intersection Example
 
 Consider the two sets $A$ and $B$ below.
+
 $$
 \begin{align*}
 A & = \{1, 2, 3\} \\
@@ -59,8 +62,8 @@ B & = \{3, 4, 5\}
 $$
 
 The intersection of $A$ and $B$ is the set of all elements that are in both $A$ and $B$.  The intersection of $A$ and $B$ is denoted by $A \cap B$.   The intersection of $A$ and $B$ is shown below.
-$$
-A \cap B = \{3\}
+
+$$A \cap B = \{3\}$$
 
 
 ---
@@ -74,6 +77,8 @@ $$
 A & = \{1, 2, 3\} \\
 B & = \{3, 4, 5\}
 \end{align*}
+$$
+
 The difference of $A$ and $B$ is the set of all elements that are in $A$ but not in $B$.  The difference of $A$ and $B$ is denoted by $A \setminus B$.  The difference of $A$ and $B$ is shown below.
 
 $$
