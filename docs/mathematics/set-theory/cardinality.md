@@ -7,7 +7,8 @@ nav_order: 7
 
 # Cardinality
 
-The **cardinality** of a set is the number of elements in the set.  The cardinality of a set $A$ is denoted by $|A|$.
+The **cardinality** of a set is the number of elements in the set.  The cardinality of a set is denoted using absolute value notation.
+
 
 For example consider the set $A$ below.
 
